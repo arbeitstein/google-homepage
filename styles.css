@@ -1,0 +1,136 @@
+html{
+    width: 100%;
+}
+
+.google_logo{
+    position: absolute;
+    top: 30%; left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.google_apps{
+    width:16px;
+    height:16px;
+}
+
+.navbar li{
+    display: inline;
+    float: right;
+    padding: 1px;
+    margin-top: 3px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
+
+.navbar li:nth-child(2){
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 18px;
+
+}
+
+.navbar li:nth-child(3){
+    margin-top: 10px;
+}
+
+.navbar li:nth-child(4){
+    margin-top: 10px;
+}
+
+.profile_pic img{
+    object-fit: cover;
+    margin-top: -2px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+.searchbox{
+    position: absolute;
+    display: flex;
+    top: 42.5%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.searchbox input{
+    border-radius: 18px;
+    border: 1px solid rgba(190, 190, 190, 0.699);
+    padding: 5px;
+    width: 550px;
+    height: 35px;
+    padding-left: 50px;
+    outline: none;
+}
+
+.searchbox input:hover{
+    box-shadow: 2px 2px 6px rgba(189, 189, 189, 0.664);
+}
+
+.fa-search{
+    color: rgb(156, 156, 156);
+}
+
+.extra_icon{
+    position: absolute;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top:4px;
+}
+
+.search_buttons{
+    position: absolute;
+    top: 200%; left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.search_buttons button{
+    background-color:rgba(236, 236, 236, 0.445);
+    color: rgb(83, 83, 83);
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+    width: 135px;
+    padding: 8px;
+    margin: 5px;
+}
+
+.search_buttons button:hover{
+    border: 1px solid rgba(189, 189, 189, 0.664);
+}
+
+
+footer{
+    width: 100%;
+    color: gray;
+    position: fixed;
+    bottom: 0;
+    left: 30px;
+}
+
+footer p{
+    margin-right: 25px;
+    display: inline-block;
+}
+
+
+.austria_footer{
+    color: gray;
+    position: fixed;
+    bottom: 50px;
+    left: 30px;
+}
+
+.hey{
+    float: right;
+    margin-right: 40px;
+}
